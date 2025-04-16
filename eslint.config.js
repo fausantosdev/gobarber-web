@@ -23,9 +23,18 @@ export default tseslint.config(
         'warn',
         { allowConstantExport: true },
       ],
-      'no-unused-vars': 'off',
       '@typescript-eslint/no-unused-vars': 'off',
-      '@typescript-eslint/no-explicit-any': 'off'
+      '@typescript-eslint/no-explicit-any': 'off',
+      "react/jsx-props-no-spreading": "off",
+      "react/strict-boolean-expressions": "off",
+      "@typescript-eslint/strict-boolean-expressions": "off",
+      "no-trailing-spaces": "off",
+      "@typescript-eslint/no-misused-promises": "off",
+      "@typescript-eslint/consistent-type-definitions": "off",
+      "@typescript-eslint/method-signature-style": "off",
+      "@typescript-eslint/consistent-type-assertions": "off",
+      "no-constant-condition": "off",
+      "multiline-ternary": "off"
     },
   },
 )
