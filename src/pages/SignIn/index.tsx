@@ -79,6 +79,7 @@ const SignIn = () => {
       <Content>
         <AnimationContainer>
           <img src={logo} alt='GoBarber' />
+          { /* @ts-expect-error: Unreachable code error */  }
           <Form ref={formRef} onSubmit={handleSubmit} initialData={{ name: 'Lepo' }}>
             <h1>Entrar</h1>
             <Input icon={FiMail} name='email' type='email' placeholder='E-mail'/>

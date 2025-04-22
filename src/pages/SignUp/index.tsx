@@ -74,6 +74,7 @@ const SignUp = () => {
       <Content>
         <AnimationContainer>
           <img src={logo} alt='GoBarber' />
+          { /* @ts-expect-error: Unreachable code error */  }
           <Form ref={formRef} onSubmit={handleSubmit}>
             <h1>Faça seu cadastro</h1>
 
