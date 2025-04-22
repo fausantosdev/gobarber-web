@@ -47,7 +47,7 @@ const AuthProvider = ({ children }: IProps) => {
   }) 
 
   const signIn = useCallback(async ({ email, password }: ISignInCredentials) => {
-    const response = await api.post('auth', {
+    const response = await api.post('session/sign-in', {
       email, password
     })
     
